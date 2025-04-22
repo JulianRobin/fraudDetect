@@ -26,7 +26,7 @@ We evaluate the models using metrics such as ROC-AUC, precision-recall curves, a
 
 ## Dataset Description
 
-The dataset used is the **Credit Card Fraud Detection** dataset from Kaggle. It contains 284,807 transactions, with 492 instances labeled as fraudulent (Class = 1) and the rest as legitimate (Class = 0). The dataset is highly imbalanced, with fraudulent transactions making up less than 1% of the data.
+The dataset used is the [**Credit Card Fraud Detection** dataset from Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud). It contains 284,807 transactions, with 492 instances labeled as fraudulent (Class = 1) and the rest as legitimate (Class = 0). The dataset is highly imbalanced, with fraudulent transactions making up less than 1% of the data.
 
 ### Key Features:
 - **Time**: Elapsed time in seconds from the first transaction.
