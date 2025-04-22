@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fraud Detection System Using Machine Learning
 
 This project demonstrates the development of a fraud detection system using machine learning techniques. The dataset used contains credit card transaction data, with a binary target variable indicating whether a transaction is fraudulent or not. The project utilizes multiple models to address class imbalance and improve classification performance.
@@ -73,3 +74,33 @@ The **Ensemble Model** outperformed the individual models, achieving a ROC-AUC s
 ## License
 
 This project is open source and available under the MIT License.
+=======
+
+# Fraud Detection Project
+
+This project aims to detect fraudulent transactions in a credit card dataset. The following scripts are used in the project:
+
+1. **explore_data.py**: Performs basic exploratory data analysis (EDA) and visualizations.
+2. **load_data.py**: Loads the dataset and provides basic information.
+3. **preprocess_data.py**: Prepares the dataset by scaling features and applying SMOTE for class balancing.
+4. **train_ensemble.py**: Trains an ensemble model combining LightGBM and Random Forest classifiers.
+5. **train_lightgbm.py**: Trains a LightGBM model for binary classification.
+6. **train_model.py**: Trains a Logistic Regression model and evaluates it across different thresholds.
+7. **tune_lightgbm.py**: Performs hyperparameter tuning for the LightGBM model using GridSearchCV.
+
+## Requirements
+
+- pandas
+- matplotlib
+- seaborn
+- lightgbm
+- scikit-learn
+- imbalanced-learn
+
+## Setup
+
+1. Clone the repository.
+2. Install dependencies using `pip install -r requirements.txt`.
+3. Run the scripts in `src/` to explore, preprocess, and train models on the dataset.
+
+>>>>>>> d590680 (Initial Commit)
