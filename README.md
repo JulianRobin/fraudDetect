@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Fraud Detection System Using Machine Learning
 
 This project demonstrates the development of a fraud detection system using machine learning techniques. The dataset used contains credit card transaction data, with a binary target variable indicating whether a transaction is fraudulent or not. The project utilizes multiple models to address class imbalance and improve classification performance.
